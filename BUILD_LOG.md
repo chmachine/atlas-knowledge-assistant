@@ -10,6 +10,8 @@ Real numbers for the case study. One entry per PR / work block.
 - *App API cost*: money spent on the Anthropic API by the assistant itself (answers, eval judge). Taken from `audit_log.cost_usd` and `eval_results.cost_usd` once the app calls Claude. Until then it is $0.
 - *Cloudflare cost*: all resources used stay inside free/included limits unless stated otherwise.
 
+These numbers describe building a demo on invented data. They are not an estimate for a client project; see "What these build numbers are, and are not" in `CASE_STUDY.md`.
+
 ---
 
 ## 2026-10-14 (day 1)
