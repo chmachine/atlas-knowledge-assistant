@@ -1,6 +1,7 @@
 {
   "name": "kb-assistant",
   "private": true,
+  "license": "MIT",
   "version": "0.1.0",
   "description": "Atlas Logistics knowledge assistant: a portfolio demo of RAG, agentic retrieval, AI governance and measured productivity.",
   "type": "module",

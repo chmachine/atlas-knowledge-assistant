@@ -159,3 +159,7 @@ OPS_TOKEN=... npm run ingest -- --target https://<your-worker>.workers.dev
 - When the assistant refuses a question it still often points to a named document owner or to the Helpdesk; this is noted in the build log as something to tune. (It used to say that personal data was "removed from the documents" when in fact the assistant masked it before reading; the prompt was the cause, is fixed and was spot-checked on four questions, but the evaluation reports were made before the fix.)
 - The demo sign-in has no passwords on purpose. A real deployment would sit behind single sign-on and take permissions from the source systems; here the permission model is four roles and five labels.
 - Cost figures are list-price estimates from token counts, not an invoice. The time saved is an assumption. The simulated history is simulated.
+
+## License
+
+MIT, see [LICENSE](LICENSE). All people, companies and documents in this repository are fictional.
