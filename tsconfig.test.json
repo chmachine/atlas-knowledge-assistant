@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", "lib": ["ES2022"], "module": "ESNext", "moduleResolution": "bundler",
+    "strict": true, "noEmit": true, "skipLibCheck": true, "isolatedModules": true,
+    "noUncheckedIndexedAccess": true,
+    "types": ["node", "@cloudflare/workers-types"]
+  },
+  "include": ["tests", "scripts", "src/worker", "src/config.ts", "src/web/answerParse.ts", "vitest.config.ts"]
+}

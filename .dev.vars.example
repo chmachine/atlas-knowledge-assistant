@@ -1,0 +1,6 @@
+# Copy to .dev.vars for local development (.dev.vars is gitignored and never deployed).
+# In production the secrets are set with `wrangler secret put <NAME>`; never commit real values.
+ANTHROPIC_API_KEY=
+OPS_TOKEN=
+# Relaxes the Content-Security-Policy so the Vite dev server works. Local only.
+APP_ENV=development

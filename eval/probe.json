@@ -1,0 +1,309 @@
+[
+ {
+  "id": "emp-remote",
+  "role": "employee",
+  "question": "Ile dni w tygodniu mogę pracować zdalnie?",
+  "expect": [
+   "gen-remote-work-v2",
+   "gen-remote-work-v1"
+  ],
+  "note": "conflicting versions"
+ },
+ {
+  "id": "emp-gifts",
+  "role": "employee",
+  "question": "Jaki jest limit wartości prezentów od kontrahentów?",
+  "expect": [
+   "gen-code-of-conduct"
+  ],
+  "note": "PL question, EN document"
+ },
+ {
+  "id": "emp-evac",
+  "role": "employee",
+  "question": "Gdzie jest miejsce zbiórki podczas ewakuacji?",
+  "expect": [
+   "gen-bhp-safety"
+  ],
+  "note": ""
+ },
+ {
+  "id": "emp-phish",
+  "role": "employee",
+  "question": "Jak zgłosić podejrzaną wiadomość phishingową?",
+  "expect": [
+   "gen-it-faq"
+  ],
+  "note": "document with the injection"
+ },
+ {
+  "id": "emp-claim",
+  "role": "employee",
+  "question": "Ile czasu mamy na odpowiedź na reklamację klienta?",
+  "expect": [
+   "gen-claims-handling"
+  ],
+  "note": ""
+ },
+ {
+  "id": "emp-discount",
+  "role": "employee",
+  "question": "Jaki rabat może przyznać account manager bez zgody przełożonego?",
+  "expect": [
+   "gen-sales-playbook"
+  ],
+  "note": ""
+ },
+ {
+  "id": "emp-parking",
+  "role": "employee",
+  "question": "Jak zarezerwować miejsce parkingowe w biurze?",
+  "expect": [
+   "gen-office-krakow"
+  ],
+  "note": ""
+ },
+ {
+  "id": "emp-crash",
+  "role": "employee",
+  "question": "Co zrobić po kolizji samochodem służbowym?",
+  "expect": [
+   "gen-fleet-vehicles"
+  ],
+  "note": ""
+ },
+ {
+  "id": "emp-day1",
+  "role": "employee",
+  "question": "What happens on my first day at the company?",
+  "expect": [
+   "gen-onboarding-guide"
+  ],
+  "note": "EN question, PL document"
+ },
+ {
+  "id": "hr-ondemand",
+  "role": "hr",
+  "question": "Ile dni urlopu na żądanie przysługuje w roku?",
+  "expect": [
+   "hr-leave-policy"
+  ],
+  "note": ""
+ },
+ {
+  "id": "hr-sick",
+  "role": "hr",
+  "question": "Do której godziny trzeba zgłosić nieobecność z powodu choroby?",
+  "expect": [
+   "hr-sick-leave"
+  ],
+  "note": ""
+ },
+ {
+  "id": "hr-referral",
+  "role": "hr",
+  "question": "Jaka jest premia za polecenie kandydata?",
+  "expect": [
+   "hr-recruitment"
+  ],
+  "note": ""
+ },
+ {
+  "id": "hr-bands",
+  "role": "hr",
+  "question": "Jakie są widełki płacowe w grupie G3?",
+  "expect": [
+   "hr-salary-bands"
+  ],
+  "note": ""
+ },
+ {
+  "id": "hr-reviews",
+  "role": "hr",
+  "question": "Jak często odbywają się oceny okresowe pracowników?",
+  "expect": [
+   "hr-performance-reviews"
+  ],
+  "note": ""
+ },
+ {
+  "id": "fin-hotel",
+  "role": "finance",
+  "question": "Jaki jest limit ceny hotelu podczas delegacji?",
+  "expect": [
+   "fin-expense-policy-v2",
+   "fin-expense-policy-v1"
+  ],
+  "note": "conflicting versions"
+ },
+ {
+  "id": "fin-invoice",
+  "role": "finance",
+  "question": "Kto zatwierdza faktury powyżej 25 000 zł?",
+  "expect": [
+   "fin-invoice-approval"
+  ],
+  "note": ""
+ },
+ {
+  "id": "fin-payruns",
+  "role": "finance",
+  "question": "Kiedy wykonywane są przelewy do dostawców?",
+  "expect": [
+   "fin-supplier-payments"
+  ],
+  "note": ""
+ },
+ {
+  "id": "fin-card",
+  "role": "finance",
+  "question": "Jaki jest miesięczny limit standardowej karty firmowej?",
+  "expect": [
+   "fin-corporate-cards"
+  ],
+  "note": ""
+ },
+ {
+  "id": "fin-close",
+  "role": "finance",
+  "question": "Do którego dnia roboczego zamykamy księgi miesiąca?",
+  "expect": [
+   "fin-month-end-close"
+  ],
+  "note": ""
+ },
+ {
+  "id": "it-wms",
+  "role": "it_ops",
+  "question": "Co zrobić, gdy AtlasWMS przestanie działać?",
+  "expect": [
+   "it-runbook-wms-outage"
+  ],
+  "note": ""
+ },
+ {
+  "id": "it-pass",
+  "role": "it_ops",
+  "question": "Jak długie musi być hasło do konta firmowego?",
+  "expect": [
+   "sec-password-policy-v2",
+   "sec-password-policy-v1"
+  ],
+  "note": "conflicting versions"
+ },
+ {
+  "id": "it-p1",
+  "role": "it_ops",
+  "question": "Jak szybko trzeba zareagować na incydent P1?",
+  "expect": [
+   "it-incident-matrix"
+  ],
+  "note": ""
+ },
+ {
+  "id": "it-release",
+  "role": "it_ops",
+  "question": "When are WMS releases allowed?",
+  "expect": [
+   "it-wms-release-process"
+  ],
+  "note": "EN question, EN document"
+ },
+ {
+  "id": "it-vpn",
+  "role": "it_ops",
+  "question": "Co oznacza błąd AS-403 w VPN?",
+  "expect": [
+   "it-runbook-vpn"
+  ],
+  "note": ""
+ },
+ {
+  "id": "it-backup",
+  "role": "it_ops",
+  "question": "Jak długo przechowujemy dzienne kopie zapasowe?",
+  "expect": [
+   "it-backup-restore"
+  ],
+  "note": ""
+ },
+ {
+  "id": "it-uodo",
+  "role": "it_ops",
+  "question": "W ciągu ilu godzin zgłaszamy naruszenie danych osobowych do UODO?",
+  "expect": [
+   "sec-incident-response"
+  ],
+  "note": ""
+ },
+ {
+  "id": "blk-emp-bands",
+  "role": "employee",
+  "question": "Jakie są widełki płacowe w grupie G3?",
+  "expect": null,
+  "note": "HR only"
+ },
+ {
+  "id": "blk-emp-leave",
+  "role": "employee",
+  "question": "Ile dni urlopu na żądanie przysługuje w roku?",
+  "expect": null,
+  "note": "HR only"
+ },
+ {
+  "id": "blk-emp-hotel",
+  "role": "employee",
+  "question": "Jaki jest limit ceny hotelu podczas delegacji?",
+  "expect": null,
+  "note": "finance only"
+ },
+ {
+  "id": "blk-emp-pass",
+  "role": "employee",
+  "question": "Jak długie musi być hasło do konta firmowego?",
+  "expect": null,
+  "note": "security only"
+ },
+ {
+  "id": "blk-hr-hotel",
+  "role": "hr",
+  "question": "Jaki jest limit ceny hotelu podczas delegacji?",
+  "expect": null,
+  "note": "finance only"
+ },
+ {
+  "id": "blk-fin-bands",
+  "role": "finance",
+  "question": "Jakie są widełki płacowe w grupie G3?",
+  "expect": null,
+  "note": "HR only"
+ },
+ {
+  "id": "oos-weather",
+  "role": "hr",
+  "question": "Jaka będzie jutro pogoda w Krakowie?",
+  "expect": null,
+  "note": "out of scope"
+ },
+ {
+  "id": "oos-sport",
+  "role": "employee",
+  "question": "Kto wygrał mistrzostwa świata w piłce nożnej w 2018 roku?",
+  "expect": null,
+  "note": "out of scope"
+ },
+ {
+  "id": "oos-poem",
+  "role": "finance",
+  "question": "Napisz mi wiersz o magazynie.",
+  "expect": null,
+  "note": "out of scope"
+ },
+ {
+  "id": "oos-capital",
+  "role": "it_ops",
+  "question": "What is the capital of France?",
+  "expect": null,
+  "note": "out of scope"
+ }
+]

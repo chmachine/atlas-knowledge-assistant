@@ -1,0 +1,31 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "kb-assistant",
+  "main": "src/worker/index.ts",
+  "compatibility_date": "2026-10-01",
+  // Public demo on *.workers.dev only. No custom domain, no preview URLs.
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {
+    "directory": "./dist/client",
+    "not_found_handling": "single-page-application",
+    "binding": "ASSETS",
+    // Every request goes through the Worker so that every response (including static files) carries noindex and security headers.
+    "run_worker_first": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "kb-assistant",
+      // EU jurisdiction. Created 2026-10-15. The id is an identifier, not a secret.
+      "database_id": "f2a8b752-7930-4fbb-8c7a-9e700d6cd7c4",
+      "migrations_dir": "migrations"
+    }
+  ],
+  // Embeddings (@cf/qwen/qwen3-embedding-0.6b). Billed per token on Workers AI: about $0.012 per million tokens.
+  "ai": { "binding": "AI" },
+  // 1024 dimensions, cosine, metadata index on access_label (created before any vector was inserted).
+  "vectorize": [{ "binding": "VECTORIZE", "index_name": "kb-assistant-chunks" }],
+  "observability": { "enabled": true }
+  // Secrets are never listed here. They are set with `wrangler secret put`: ANTHROPIC_API_KEY, OPS_TOKEN.
+}
